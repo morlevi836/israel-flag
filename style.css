@@ -1,0 +1,160 @@
+body {
+    background: linear-gradient(#ffffff 10%, rgba(9, 84, 223, 0.992) 125%);
+}
+
+.div-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.white-background {
+    position: relative;
+    width: 800px;
+    height: 551px;
+    background-color: white;
+    border: 1px solid;
+}
+
+.line {
+    position: absolute;
+    width: 800px;
+    height: 95px;
+    background: #0038B8;
+}
+
+.top-line {
+    top: 33px;
+}
+
+.bottom-line {
+    bottom: 33px;
+}
+
+#david-shield {
+    position: absolute;
+    width: 270px;
+    height: 279px;
+    top: 136px;
+    left: 267px;
+}
+
+.Polygon1-1 {
+    position: absolute;
+    top: 0px;
+    left: 110px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #0038B8;
+}
+
+.Polygon1-2 {
+    position: absolute;
+    right: 0px;
+    top: 160px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #0038B8;
+    transform: rotate(115deg);
+}
+
+.Polygon1-3 {
+    position: absolute;
+    left: 0px;
+    top: 160px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #0038B8;
+    transform: rotate(-115deg);
+}
+
+.Rectangle1-1 {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    bottom: 83px;
+    left: 35px;
+    background: #0038B8;
+}
+
+.Rectangle1-2 {
+    position: absolute;
+    width: 185px;
+    height: 20px;
+    top: 90px;
+    right: -7px;
+    transform: rotate(-126deg);
+    background: #0038B8;
+}
+
+.Rectangle1-3 {
+    position: absolute;
+    width: 185px;
+    height: 20px;
+    top: 90px;
+    left: -7px;
+    transform: rotate(126deg);
+    background: #0038B8;
+}
+
+.Polygon2-1 {
+    position: absolute;
+    bottom: 0px;
+    left: 110px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #0038B8;
+}
+
+.Polygon2-2 {
+    position: absolute;
+    left: 0px;
+    top: 60px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #0038B8;
+    transform: rotate(-65deg);
+}
+
+.Polygon2-3 {
+    position: absolute;
+    right: 0px;
+    top: 60px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #0038B8;
+    transform: rotate(65deg);
+}
+
+.Rectangle2-1 {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    top: 73px;
+    left: 35px;
+    background: #0038B8;
+}
+
+.Rectangle2-2 {
+    position: absolute;
+    width: 185px;
+    height: 20px;
+    top: 160px;
+    left: -11px;
+    transform: rotate(57deg);
+    background: #0038B8;
+}
+
+.Rectangle2-3 {
+    position: absolute;
+    width: 185px;
+    height: 20px;
+    top: 160px;
+    right: -11px;
+    transform: rotate(-57deg);
+    background: #0038B8;
+}
